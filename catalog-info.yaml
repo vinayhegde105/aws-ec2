@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "ots3"
   annotations:
-    grafana/dashboard-selector: 'tag:my-service'
+    grafana/dashboard-selector: 'tag:gitlab-ci-jobs'
 spec:
   type: service
   owner: user:guest
