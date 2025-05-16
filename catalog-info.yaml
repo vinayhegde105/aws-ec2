@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-service
+  annotations:
+    grafana/dashboard-selector: 'tag:my-service'
+    grafana/alert-label-selector: 'my-service'
