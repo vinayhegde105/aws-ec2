@@ -1,11 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-service
-  description: My sample service
-  annotations:
-    grafana/dashboard-selector: 'tag:my-service'
+  name: "ots3"
 spec:
   type: service
-  lifecycle: production
   owner: user:guest
+  lifecycle: experimental
