@@ -6,7 +6,7 @@ metadata:
     grafana/alert-label-selector: "service=awesome-service"
     grafana/dashboard-selector: >
       (tags @> 'vth' || tags @> 'gitlab-ci-jobs') && tags @> 'generated'
-    grafana/overview-dashboard: 'http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1'
+    grafana/overview-dashboard: 'http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1&from=1747497845451'
 spec:
   type: service
   owner: user:guest
