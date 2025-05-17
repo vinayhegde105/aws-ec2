@@ -4,7 +4,8 @@ metadata:
   name: "ots3"
   annotations:
     grafana/alert-label-selector: "service=awesome-service"
-    grafana/dashboard-selector: "http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1&from=1747492296343&to=1747495896343"
+    grafana/dashboard-selector: >
+      (tags @> 'vth' || tags @> 'vth') && tags @> 'vth'
     grafana/overview-dashboard: 'http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1&from=1747491261762&to=1747494861762'
 spec:
   type: service
