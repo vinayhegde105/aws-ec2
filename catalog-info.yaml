@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "ots3"
   annotations:
-    grafana/overview-dashboard: 'http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1&1747497845451'
+    grafana/overview-dashboard: 'http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1'
 spec:
   type: service
   owner: user:guest
