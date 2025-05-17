@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "ots3"
+  name: ots3
   annotations:
     grafana/alert-label-selector: "service=awesome-service"
     grafana/dashboard-selector: >
       (tags @> 'my-service' || tags @> 'my-service-slo') && tags @> 'generated'
-    grafana/overview-dashboard: 'http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1&from=1747491261762&to=1747494861762'
+    grafana/overview-dashboard: 'http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1'
 spec:
   type: service
   owner: user:guest
