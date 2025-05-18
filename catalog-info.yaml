@@ -5,7 +5,7 @@ metadata:
   annotations:
     grafana/alert-label-selector: "service=awesome-service"
     grafana/dashboard-selector: "tags @> 'vth'"
-    grafana/overview-dashboard: 'http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1&from=1747537181075&to=1747540781075&kiosk'
+    grafana/overview-dashboard: 'http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1&kiosk'
 spec:
   type: service
   owner: user:guest
