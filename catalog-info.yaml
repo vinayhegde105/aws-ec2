@@ -3,7 +3,9 @@ kind: Component
 metadata:
   name: "ots3"
   annotations:
-    grafana/overview-dashboard: 'http://santhana-dev.hpeswlab.net:3000/d/gitlab_ci_pipelines/gitlab-ci-pipelines?orgId=1&kiosk'
+    grafana/alert-label-selector: "service=awesome-service"
+    grafana/dashboard-selector: "tags @> 'vth'"
+    grafana/overview-dashboard: 'http://localhost:3000/d/gitlab_ci_jobs/gitlab-ci-jobs?orgId=1&kiosk'
 spec:
   type: service
   owner: user:guest
